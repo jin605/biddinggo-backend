@@ -7,11 +7,11 @@ pipeline {
 
   environment {
     GHCR_REGISTRY = 'ghcr.io'
-    GHCR_OWNER = 'beyond-sw-camp'
-    IMAGE_NAME = 'be25-2nd-biddingmate-biddinggo'
+    GHCR_OWNER = 'jin605'
+    IMAGE_NAME = 'biddinggo-backend'
     GHCR_IMAGE_NAME = "${GHCR_REGISTRY}/${GHCR_OWNER}/${IMAGE_NAME}"
 
-    CICD_REPO_URL = 'github.com/beyond-sw-camp/be25-4th-biddingmate-biddinggo.git'
+    CICD_REPO_URL = 'github.com/jin605/biddinggo-deploy.git'
     BACKEND_DEPLOYMENT_MANIFEST = 'infra/k8s/backend/deployment.yaml'
   }
 
