@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@OpenAPIDefinition(info = @Info(title = "bidding-go", description = "bidding-go API", version = "v1.0.2"))
+@OpenAPIDefinition(info = @Info(title = "bidding-go", description = "bidding-go API", version = "v1.0.3"))
 public class SwaggerConfig {
         @Bean
         public OpenAPI openAPI() {
